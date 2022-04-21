@@ -1,0 +1,18 @@
+:root{
+    color: #FF4000; /*10%*/
+    color: #FFD1C2;/*30%*/
+    color: #0A0A0A;/*60%*/
+
+    --my-10-color: #FF4000;
+    --my-30-color: #FFD1C2;
+    --my-60-color: #0A0A0A;
+}
+body{
+    background-color: var(--my-60-color) !important;
+}
+h1{
+    color: var(--my-10-color);
+}
+nav{
+    background-color: var(--my-60-color) !important;
+}
